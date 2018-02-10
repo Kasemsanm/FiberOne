@@ -1,0 +1,8 @@
+{
+  "name": "fiberone",
+  "app_id": "85e70b18",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
