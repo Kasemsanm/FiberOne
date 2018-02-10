@@ -1,0 +1,81 @@
+page-home {
+    #custom-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 100000;
+        width:100%;
+        background-color: #8f00bb;
+      }
+      
+      .flb {
+        background-color: #fdfdfd;
+        height:100%;
+        width:100%;
+        animation: pulse 1s linear forwards;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .Aligner-item {
+        max-width: 50%;
+      }
+      .Aligner-item--top {
+        align-self: flex-start;
+      }
+      .Aligner-item--bottom {
+        align-self: flex-end;
+      }
+      #custom-overlay img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        animation: Logo_animation 3100ms linear infinite both;
+        animation-delay: 1s;
+    }
+    @keyframes pulse {
+        0% {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }
+      .circle-top {
+        margin-top: -1px;
+        width: 100%;
+        position: absolute;
+      }
+    
+      .services {
+        margin-top: 4%;
+    
+        .services-rows {
+          justify-content: space-around;
+          margin-bottom: 10px;
+          padding: 0 5px;
+    
+          .services-box {
+            margin: 10px;
+            max-width: 150px;
+            min-height: 150px;
+            padding: 20px;
+            text-align: center;
+    
+            img {
+              max-width: 80px;
+              display: block;
+              margin: 0 auto;
+              margin-bottom: 10px;
+            }
+    
+            span {
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+}
